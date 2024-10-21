@@ -1,0 +1,119 @@
+* {
+    margin: 0; /* Menghilangkan margin default dari semua elemen */
+    padding: 0; /* Menghilangkan padding default dari semua elemen */
+    box-sizing: border-box; /* Mengatur agar padding tidak menambah lebar elemen */
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Mengatur jenis font pada halaman */
+    line-height: 1.6; /* Mengatur tinggi baris teks */
+}
+
+section {
+    background: rgb(243, 243, 243); /* Mengatur background header menjadi abu-abu gelap */
+    color: #000000; /* Warna teks header menjadi putih */
+    padding: 10px 0; /* Padding vertikal pada header */
+    text-align: center; /* Mengatur teks menjadi rata tengah */
+}
+header {
+    background: #d9e43d; /* Mengatur background header menjadi abu-abu gelap */
+    color: #0a0000; /* Warna teks header menjadi putih */
+    padding: 10px 0; /* Padding vertikal pada header */
+    text-align: center; /* Mengatur teks menjadi rata tengah */
+}
+
+nav ul {
+    list-style: none; /* Menghilangkan tanda bullet pada list */
+    display: flex; /* Membuat elemen list tampil dalam baris */
+    justify-content: center; /* Membuat list rata tengah */
+}
+
+nav ul li {
+    margin: 0 15px; /* Memberi jarak antar item navigasi */
+}
+
+nav ul li a {
+    color: #000000; /* Warna teks link menjadi putih */
+    text-decoration: none; /* Menghilangkan garis bawah link */
+    font-size: 18px; /* Mengatur ukuran font */
+}
+
+.section {
+    padding: 60px; /* Memberi padding di semua sisi */
+    text-align: center; /* Mengatur teks menjadi rata tengah */
+}
+
+#pendahuluan {
+    background: #ffffff; /* Background bagian Pendahuluan menjadi abu-abu muda */
+}
+
+
+
+#PointSakti1 {
+    background: #f1f1f1; /* Background bagian Pointsakti1 menjadi putih */
+}
+
+/* Styling untuk section sakti1 */
+.sakti1-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Jarak antar card */
+    flex-wrap: wrap;
+}
+
+.sakti1-item {
+    background-color: #472902;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    flex-basis: calc(33.333% - 20px); /* Ukuran setiap card adalah 1/3 dari lebar baris, dengan memperhitungkan jarak antar card */
+}
+#PointSakti2{
+    background: #f1f1f1;/* Background bagian Pointsakti2 menjadi putih */
+}
+
+   
+    /* Styling untuk sakti2 */
+.sakti2-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px; /* Jarak antar card */
+    flex-wrap: wrap;
+}
+
+.sakti2-item {
+    background-color: #472902;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    flex-basis: calc(33.333% - 20px); /* Ukuran setiap card adalah 1/3 dari lebar baris, dengan memperhitungkan jarak antar card */
+}
+footer{
+    
+    #logo{
+        background: #d9e43d; /* Background bagina logo logo menjadi kuning */
+        color: #000000; /* Warna teks header menjadi putih */
+        
+    }
+    
+    #logo {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+      }
+      
+      .about-photo {
+        flex: 1;
+        padding-right: 20px;
+        width: 10%;
+      }
+    
+}
+
+
+
+
